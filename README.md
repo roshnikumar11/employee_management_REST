@@ -72,11 +72,11 @@ POST http://localhost:8080/api/employees
 Content-Type: application/json
 
 {
-    "firstName": "John",
-    "lastName": "Doe",
-    "email": "john.doe@example.com",
-    "department": "IT",
-    "salary": 50000
+    "name": "John",
+    "salary": 50000,
+    "age": 25,
+    "mobile": 9847213506,
+    "role": "IT"
 }
 
 
@@ -86,11 +86,11 @@ PUT http://localhost:8080/api/employees/1
 Content-Type: application/json
 
 {
-    "firstName": "John",
-    "lastName": "Smith",
-    "email": "john.smith@example.com",
-    "department": "IT",
+    "name": "John",
     "salary": 55000
+    "age": 26,
+    "mobile": 9568772153,
+    "role": "IT"
 }
 
 
@@ -100,11 +100,11 @@ Content-Type: application/json
 | Column | Type        | Description                  |
 |--------|-------------|------------------------------|
 | id     | BIGINT      | Primary key (auto-generated) |
-| name   | VARCHAR(50) | Employee's first name        |
+| name   | VARCHAR(50) | Employee's name              |
 | salary | DECIMAL     | Employee's salary            |
-| age    | INTEGER     | Employee's email (unique)    |
-| mobile | BIGINT      | Employee's department        |
-| role   | VARCHAR(50) | Record creation date         |
+| age    | INTEGER     | Employee's age               |
+| mobile | BIGINT      | Employee's phone number      |
+| role   | VARCHAR(50) | Employee's job role          |
 
 # Testing
 Run the tests using:
