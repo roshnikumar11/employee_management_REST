@@ -11,7 +11,7 @@ This project is used to:
 - RESTful API design principles
 - JSON response format
 
-# Technologies Used
+### Technologies Used
 - Java: Programming language
 - Spring Boot: Framework for building REST APIs
 - Spring Data JPA: Data persistence layer
@@ -19,14 +19,14 @@ This project is used to:
 - Maven: Build tool
 - Postman: API testing
 
-# Prerequisites
+### Prerequisites
 Before running this application, make sure you have:
 - Java 8 or higher installed
 - Maven 3.6+ installed
 - MySQL database (if using MySQL)
 - IDE (Eclipse, IntelliJ IDEA, or VS Code)
 
-# Installation
+### Installation
 1. *Clone the repository*
    bash
    git clone https://github.com/roshnikumar11/employee_management_REST.git
@@ -49,7 +49,7 @@ Before running this application, make sure you have:
    
 The application will start on http://localhost:(port-number)
 
-# API Endpoints
+### API Endpoints
 
 | Method | Endpoint            | Description         |
 |--------|---------------------|---------------------|
@@ -59,14 +59,14 @@ The application will start on http://localhost:(port-number)
 | PUT    | /api/employees/{id} | Update employee     |
 | DELETE | /api/employees/{id} | Delete employee     |
 
-# Examples
+### Examples
 
-### Get All Employees
+#### Get All Employees
 bash
 GET http://localhost:8080/api/employees
 
 
-### Create New Employee
+#### Create New Employee
 bash
 POST http://localhost:8080/api/employees
 Content-Type: application/json
@@ -80,7 +80,7 @@ Content-Type: application/json
 }
 
 
-### Update Employee
+#### Update Employee
 bash
 PUT http://localhost:8080/api/employees/1
 Content-Type: application/json
@@ -94,9 +94,9 @@ Content-Type: application/json
 }
 
 
-# Database Schema
+### Database Schema
 
-## Employee Table
+#### Employee Table
 | Column | Type        | Description                  |
 |--------|-------------|------------------------------|
 | id     | BIGINT      | Primary key (auto-generated) |
@@ -106,7 +106,7 @@ Content-Type: application/json
 | mobile | BIGINT      | Employee's phone number      |
 | role   | VARCHAR(50) | Employee's job role          |
 
-# Testing
+### Testing
 Run the tests using:
 bash
 mvn test
@@ -116,7 +116,7 @@ You can also test the API using:
 - curl commands
 - Any REST client
 
-# Project Structure
+### Project Structure
 
 employee_management_REST/
 ├── src/
@@ -134,9 +134,9 @@ employee_management_REST/
 ├── pom.xml
 └── README.md
 
-# Author
+### Author
 
-*Roshni Kumar* - [GitHub](https://github.com/roshnikumar11)
+*Roshni N Kumar* - [GitHub](https://github.com/roshnikumar11)
 
 # Support
 
