@@ -118,7 +118,7 @@ You can also test the API using:
 
 ### Project Structure
 
-employee_management_REST/
+#### employee_management_REST/
 ├── src/
 │   ├── main/
 │   │   ├── java/
