@@ -114,31 +114,12 @@ mvn test
 You can also test the API using:
 - Postman
 - curl commands
-- Any REST client
-
-### Project Structure
-
-#### employee_management_REST/
-├── src/
-│   ├── main/
-│   │   ├── java/
-│   │   │   └── com/jsp/emprest/
-│   │   │       ├── entity/
-│   │   │       ├── repository/
-│   │   │       ├── service/
-│   │   │       ├── controller/
-│   │   │       └── exception/
-│   │   └── resources/
-│   │       └── application.properties
-│   └── test/
-├── pom.xml
-└── README.md
 
 ### Author
 
 *Roshni N Kumar* - [GitHub](https://github.com/roshnikumar11)
 
-# Support
+### Support
 
 If you have any questions or issues, please open an issue on GitHub or contact me at [roshnikumar749@gmail.com].
 
